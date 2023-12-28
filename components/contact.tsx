@@ -73,7 +73,7 @@
 
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, FormEvent } from 'react';
 import SectionHeading from './section-heading';
 import { motion } from 'framer-motion';
 import { useSectionInView } from '@/lib/hooks';
@@ -86,7 +86,7 @@ export default function Contact() {
   const [senderEmail, setSenderEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  const handleSubmit = async (event) => {
+  const handleSubmit = async (event: FormEvent) => {
     event.preventDefault();
     const formData = {
       senderEmail,
