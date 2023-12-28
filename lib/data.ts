@@ -116,6 +116,7 @@ export const skillsData = [
   'Redux',
   'Next.js',
   'SCSS',
+  'Tailwind CSS',
   'Framer Motion',
   'Node.js',
   'Express.js',
@@ -124,7 +125,6 @@ export const skillsData = [
   'MongoDB',
   'GraphQL',
   'WebSockets',
-
   'Webpack',
   'Docker',
   'Kubernetes',
