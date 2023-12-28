@@ -1,4 +1,4 @@
-'use client';
+// 'use client';
 
 // import React from 'react';
 // import SectionHeading from './section-heading';
@@ -70,6 +70,8 @@
 //     </motion.section>
 //   );
 // }
+
+'use client';
 
 import React, { useState } from 'react';
 import SectionHeading from './section-heading';
