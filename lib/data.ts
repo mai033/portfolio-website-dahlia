@@ -95,7 +95,7 @@ export const projectsData = [
     title: 'Meow Match',
     description:
       'An online, searchable, database of animals who need a home. We help connect pets in need with foster and forever homes.',
-    tags: ['React', 'Express.js', 'JavaScript', 'MongoDB'],
+    tags: ['TypeScript', 'Jest', 'React', 'Express.js', 'MongoDB'],
     imageUrl: Meowmatch,
   },
   {
