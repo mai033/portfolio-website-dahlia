@@ -45,20 +45,21 @@ export const experiencesData = [
     date: '2023 - present',
   },
   {
-    title: 'Business Development | Administrative Manager',
+    title: 'Office Manager',
     location: 'Malta',
     description:
       'Led cross-functional teams, improving project delivery by 20% and enhancing inter-departmental communication by 15%.',
     icon: React.createElement(CgWorkAlt),
-    date: '2020 - 2022',
+    date: '2021 - 2022',
   },
   {
-    title: 'Senior Cabin Crew',
-    location: 'Taiwan',
+    title: 'Business Development',
+    location: '',
     description:
-      "As an international crew member, I've developed a keen awareness of diverse cultures, excelled in teamwork, and consistently prioritized passenger experience.",
-    icon: React.createElement(IoAirplaneOutline),
-    date: '2015 - 2020',
+    'Boosted revenue by 12% by initiating strategic partnerships and cultivating strong client relationships.',
+      // "As an international crew member, I've developed a keen awareness of diverse cultures, excelled in teamwork, and consistently prioritized passenger experience.",
+    icon: React.createElement(CgWorkAlt),
+    date: '2020 - 2021',
   },
 ] as const;
 
