@@ -48,7 +48,7 @@ export const experiencesData = [
     title: 'Business Development | Administrative Manager',
     location: 'Malta',
     description:
-      'Elevated team efficiency by introducing and integrating key technology tools(Jira, HubSpot, ERP...), resulting in a 16% increase in productivity.',
+      'Led cross-functional teams, improving project delivery by 20% and enhancing inter-departmental communication by 15%.',
     icon: React.createElement(CgWorkAlt),
     date: '2020 - 2022',
   },
