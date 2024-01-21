@@ -72,7 +72,7 @@ export const projectsData = [
     tags: [
       'React',
       'Redux',
-      'Express.js',
+      'Node.js',
       'MongoDB',
       'Docker',
       'Kubernetes',
@@ -89,21 +89,21 @@ export const projectsData = [
     title: 'Rendez View',
     description:
       'A meeting scheduling platform that allows everyone to add their availability on a grid, enabling users to identify the slot that best overlaps.',
-    tags: ['React', 'Express.js', 'JavaScript', 'SQL'],
+    tags: ['React', 'Node.js', 'Express', 'JavaScript', 'SQL'],
     imageUrl: RendezView,
   },
   {
     title: 'Meow Match',
     description:
       'An online, searchable, database of animals who need a home. We help connect pets in need with foster and forever homes.',
-    tags: ['TypeScript', 'Jest', 'React', 'Express.js', 'MongoDB'],
+    tags: ['TypeScript', 'Jest', 'React', 'Node.js', 'MongoDB'],
     imageUrl: Meowmatch,
   },
   {
     title: 'Cerebella',
     description:
       'A revolutionary app for academic success, empowering users to create personalized AI tutors that serve as tailored learning assistants powered by cutting-edge AI technology.',
-    tags: ['React', 'Express.js', 'JavaScript', 'MongoDB', 'Jest'],
+    tags: ['React', 'Node.js', 'JavaScript', 'MongoDB', 'Jest'],
     imageUrl: Cerebella,
   },
 ] as const;
