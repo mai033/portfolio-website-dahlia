@@ -68,7 +68,7 @@ export const projectsData = [
     title: 'Kube VX',
     description:
       // 'kubevx.com is an open-source Kubernetes visualization tool, featuring an AI assistant.',
-      'An open-source Kubernetes visualization tool, featuring an AI assistant. Check it out at <u><a href="https://kubevx.com" target="_blank" rel="noopener noreferrer">kubevx.com</a></u>.',
+      'An Observability Platform for analyzing Kubernetes clusters, featuring an AI assistant. Check it out at <u><a href="https://kubevx.com" target="_blank" rel="noopener noreferrer">kubevx.com</a></u>.',
     tags: [
       'React',
       'Redux',
