@@ -56,8 +56,8 @@ export const experiencesData = [
     title: 'Business Development',
     location: '',
     description:
-    'Boosted revenue by 12% by initiating strategic partnerships and cultivating strong client relationships.',
-      // "As an international crew member, I've developed a keen awareness of diverse cultures, excelled in teamwork, and consistently prioritized passenger experience.",
+      'Boosted revenue by 12% by initiating strategic partnerships and cultivating strong client relationships.',
+    // "As an international crew member, I've developed a keen awareness of diverse cultures, excelled in teamwork, and consistently prioritized passenger experience.",
     icon: React.createElement(CgWorkAlt),
     date: '2020 - 2021',
   },
@@ -113,6 +113,7 @@ export const skillsData = [
   'CSS',
   'JavaScript',
   'TypeScript',
+  'Python',
   'React',
   'Redux',
   'Next.js',
