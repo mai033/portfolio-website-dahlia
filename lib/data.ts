@@ -40,7 +40,16 @@ export const experiencesData = [
     location: 'Los Angeles',
     description:
       // 'Experienced engineer specializing in React, JavaScript, TypeScript, Node.js, Express.js, and MongoDB, dedicated to delivering innovative and scalable solutions.',
-      'I work as a full-stack software engineer at Kube VX, an open-source project powered by OS Labs, where I contributed to a 20% improvement in page loading times.',
+      'I work as a full-stack software engineer at Kube VX, an open-source project powered by OS Labs, where I created an Observability Platform that integrates with an AI assistant to analyze Kubernetes clusters.',
+    icon: React.createElement(FaReact),
+    date: '2023 - present',
+  },
+  {
+    title: 'AI Trainer',
+    location: 'Los Angeles',
+    description:
+      // 'Experienced engineer specializing in React, JavaScript, TypeScript, Node.js, Express.js, and MongoDB, dedicated to delivering innovative and scalable solutions.',
+      'LLM training on software engineering.',
     icon: React.createElement(FaReact),
     date: '2023 - present',
   },
@@ -50,17 +59,17 @@ export const experiencesData = [
     description:
       'Led cross-functional teams, improving project delivery by 20% and enhancing inter-departmental communication by 15%.',
     icon: React.createElement(CgWorkAlt),
-    date: '2021 - 2022',
+    date: '2020 - 2022',
   },
-  {
-    title: 'Business Development',
-    location: '',
-    description:
-      'Boosted revenue by 12% by initiating strategic partnerships and cultivating strong client relationships.',
-    // "As an international crew member, I've developed a keen awareness of diverse cultures, excelled in teamwork, and consistently prioritized passenger experience.",
-    icon: React.createElement(CgWorkAlt),
-    date: '2020 - 2021',
-  },
+  // {
+  //   title: 'Business Development',
+  //   location: '',
+  //   description:
+  //     'Boosted revenue by 12% by initiating strategic partnerships and cultivating strong client relationships.',
+  //   // "As an international crew member, I've developed a keen awareness of diverse cultures, excelled in teamwork, and consistently prioritized passenger experience.",
+  //   icon: React.createElement(CgWorkAlt),
+  //   date: '2020 - 2021',
+  // },
 ] as const;
 
 export const projectsData = [
@@ -138,4 +147,5 @@ export const skillsData = [
   'AWS',
   'Chart.js',
   'Material UI',
+  'Three.js',
 ] as const;
