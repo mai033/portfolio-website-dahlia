@@ -36,20 +36,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Software Engineer',
-    location: 'Los Angeles',
-    description:
-      // 'Experienced engineer specializing in React, JavaScript, TypeScript, Node.js, Express.js, and MongoDB, dedicated to delivering innovative and scalable solutions.',
-      'I work as a full-stack software engineer at Kube VX, an open-source project powered by OS Labs, where I created an Observability Platform that integrates with an AI assistant to analyze Kubernetes clusters.',
-    icon: React.createElement(FaReact),
-    date: '2023 - present',
-  },
-  {
     title: 'AI Trainer',
     location: 'Los Angeles',
     description:
       // 'Experienced engineer specializing in React, JavaScript, TypeScript, Node.js, Express.js, and MongoDB, dedicated to delivering innovative and scalable solutions.',
       'LLM training on software engineering.',
+    icon: React.createElement(FaReact),
+    date: '2024 - present',
+  },
+  {
+    title: 'Software Engineer',
+    location: 'Los Angeles',
+    description:
+      // 'Experienced engineer specializing in React, JavaScript, TypeScript, Node.js, Express.js, and MongoDB, dedicated to delivering innovative and scalable solutions.',
+      'I work as a full-stack software engineer at Kube VX, an open-source project powered by OS Labs, where I created an Observability Platform that integrates with an AI assistant to analyze Kubernetes clusters.',
     icon: React.createElement(FaReact),
     date: '2023 - present',
   },
