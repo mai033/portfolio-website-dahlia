@@ -12,6 +12,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  link,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -41,6 +42,14 @@ export default function Project({
             dangerouslySetInnerHTML={{ __html: description }}
           />
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
+            {/* {link && (
+              <li className="text-blue-500 underline cursor-pointer mb-2">
+                <a href={link} target="_blank" rel="noopener noreferrer">
+                  Visit Project
+                </a>
+              </li>
+            )} */}
+
             {tags.map((tag, index) => (
               <li
                 className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
@@ -49,6 +58,13 @@ export default function Project({
                 {tag}
               </li>
             ))}
+            {link && (
+            <li className="text-blue-600 font-semibold cursor-pointer">
+              <a href={link} target="_blank" rel="noopener noreferrer">
+                Live Link &rarr;
+              </a>
+            </li>
+          )}
           </ul>
         </div>
 

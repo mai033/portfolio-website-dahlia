@@ -6,6 +6,7 @@ import KubeVX from '@/public/KubeVX.png';
 import Meowmatch from '@/public/Meowmatch.png';
 import RendezView from '@/public/RendezView.png';
 import Cerebella from '@/public/Cerebella.png';
+import Portfolio from '@/public/Portfolio.png';
 
 export const links = [
   {
@@ -73,47 +74,61 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  // {
+  //   title: 'Observability Platform',
+  //   description:
+  //     // 'kubevx.com is an open-source Kubernetes visualization tool, featuring an AI assistant.',
+  //     // 'An Observability Platform for analyzing Kubernetes clusters, featuring an AI assistant. Check it out at <u><a href="https://kubevx.com" target="_blank" rel="noopener noreferrer">kubevx.com</a></u>.',
+  //     'An Observability Platform for analyzing Kubernetes clusters, featuring an AI assistant.',
+  //   tags: [
+  //     'React',
+  //     'Redux',
+  //     'Node.js',
+  //     'MongoDB',
+  //     'Docker',
+  //     'Kubernetes',
+  //     'Prometheus',
+  //     'Grafana',
+  //     'AWS',
+  //     'Chart.js',
+  //     'Material UI',
+  //     'OAuth',
+  //   ],
+  //   imageUrl: KubeVX,
+  //   link: 'https://www.kubevx.com',
+  // },
   {
-    title: 'Kube VX',
+    title: 'Portfolio Website',
     description:
-      // 'kubevx.com is an open-source Kubernetes visualization tool, featuring an AI assistant.',
-      'An Observability Platform for analyzing Kubernetes clusters, featuring an AI assistant. Check it out at <u><a href="https://kubevx.com" target="_blank" rel="noopener noreferrer">kubevx.com</a></u>.',
-    tags: [
-      'React',
-      'Redux',
-      'Node.js',
-      'MongoDB',
-      'Docker',
-      'Kubernetes',
-      'Prometheus',
-      'Grafana',
-      'AWS',
-      'Chart.js',
-      'Material UI',
-      'OAuth',
-    ],
-    imageUrl: KubeVX,
+      'A portfolio website that showcases my projects and skills built with Three.js.',
+    tags: ['React', 'Three.js'],
+    imageUrl: Portfolio,
+    link: 'https://dahlia-website-threejs.vercel.app/',
   },
   {
-    title: 'Rendez View',
+    title: 'Meeting Scheduler',
     description:
       'A meeting scheduling platform that allows everyone to add their availability on a grid, enabling users to identify the slot that best overlaps.',
     tags: ['React', 'Node.js', 'Express', 'JavaScript', 'SQL'],
     imageUrl: RendezView,
+    link: 'https://rendez-view.vercel.app/',
   },
+
   {
-    title: 'Meow Match',
+    title: 'Pet Adoption Platform',
     description:
       'An online, searchable, database of animals who need a home. We help connect pets in need with foster and forever homes.',
     tags: ['TypeScript', 'Jest', 'React', 'Node.js', 'MongoDB'],
     imageUrl: Meowmatch,
+    link: 'https://github.com/MeowMatch/MeowMatch',
   },
   {
-    title: 'Cerebella',
+    title: 'AI Tutor',
     description:
       'A revolutionary app for academic success, empowering users to create personalized AI tutors that serve as tailored learning assistants powered by cutting-edge AI technology.',
-    tags: ['React', 'Node.js', 'JavaScript', 'MongoDB', 'Jest'],
+    tags: ['React', 'Node.js', 'Jest'],
     imageUrl: Cerebella,
+    link: 'https://github.com/Floppy-Floppy-Floppy-Sea-Spider/Cerebella',
   },
 ] as const;
 
