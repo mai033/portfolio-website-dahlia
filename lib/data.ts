@@ -126,7 +126,7 @@ export const projectsData = [
     title: 'AI Tutor',
     description:
       'A revolutionary app for academic success, empowering users to create personalized AI tutors that serve as tailored learning assistants powered by cutting-edge AI technology.',
-    tags: ['React', 'Node.js', 'Jest'],
+    tags: ['React', 'Node.js', 'Express', 'Jest'],
     imageUrl: Cerebella,
     link: 'https://github.com/Floppy-Floppy-Floppy-Sea-Spider/Cerebella',
   },

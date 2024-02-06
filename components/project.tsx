@@ -41,14 +41,15 @@ export default function Project({
             className="mt-2 leading-relaxed text-gray-700 dark:text-white/70"
             dangerouslySetInnerHTML={{ __html: description }}
           />
+          {link && (
+            <div className="text-blue-600 font-semibold cursor-pointer mb-2 mt-2">
+              <a href={link} target="_blank" rel="noopener noreferrer">
+                Live Link ➔
+              </a>
+            </div>
+          )}
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
-            {/* {link && (
-              <li className="text-blue-500 underline cursor-pointer mb-2">
-                <a href={link} target="_blank" rel="noopener noreferrer">
-                  Visit Project
-                </a>
-              </li>
-            )} */}
+
 
             {tags.map((tag, index) => (
               <li
@@ -58,13 +59,6 @@ export default function Project({
                 {tag}
               </li>
             ))}
-            {link && (
-            <li className="text-blue-600 font-semibold cursor-pointer">
-              <a href={link} target="_blank" rel="noopener noreferrer">
-                Live Link &rarr;
-              </a>
-            </li>
-          )}
           </ul>
         </div>
 
