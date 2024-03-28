@@ -102,7 +102,7 @@ export const projectsData = [
   {
     title: 'Fullstack Dashboard',
     description:
-      'A full-stack application providing real-time monitoring of customers, transactions, and sales through a visually appealing dashboards',
+      'A full-stack application providing real-time monitoring of customers, transactions, and sales through a visually appealing dashboards.',
     tags: ['React', 'Redux Toolkit', 'Node.js', 'MongoDB'],
     imageUrl: Dashboard,
     link: 'https://admin-frontend-ngde.onrender.com/',
