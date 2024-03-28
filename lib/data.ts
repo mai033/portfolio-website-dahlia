@@ -7,6 +7,7 @@ import Meowmatch from '@/public/Meowmatch.png';
 import RendezView from '@/public/RendezView.png';
 import Cerebella from '@/public/Cerebella.png';
 import Portfolio from '@/public/Portfolio.png';
+import Dashboard from '@/public/Dashboard.png';
 
 export const links = [
   {
@@ -104,6 +105,14 @@ export const projectsData = [
     tags: ['React', 'Three.js'],
     imageUrl: Portfolio,
     link: 'https://dahlia-website-threejs.vercel.app/',
+  },
+  {
+    title: 'Fullstack Dashboard',
+    description:
+      'A full-stack application providing real-time monitoring of customers, transactions, and sales through a visually appealing dashboards',
+    tags: ['React', 'Redux Toolkit', 'Node.js', 'MongoDB'],
+    imageUrl: Dashboard,
+    link: 'https://admin-frontend-ngde.onrender.com/',
   },
   {
     title: 'Meeting Scheduler',
