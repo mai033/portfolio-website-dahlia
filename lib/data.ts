@@ -98,14 +98,7 @@ export const projectsData = [
   //   imageUrl: KubeVX,
   //   link: 'https://www.kubevx.com',
   // },
-  {
-    title: 'Portfolio Website',
-    description:
-      'A portfolio website that showcases my projects and skills built with Three.js.',
-    tags: ['React', 'Three.js'],
-    imageUrl: Portfolio,
-    link: 'https://dahlia-website-threejs.vercel.app/',
-  },
+
   {
     title: 'Fullstack Dashboard',
     description:
@@ -113,6 +106,14 @@ export const projectsData = [
     tags: ['React', 'Redux Toolkit', 'Node.js', 'MongoDB'],
     imageUrl: Dashboard,
     link: 'https://admin-frontend-ngde.onrender.com/',
+  },
+  {
+    title: 'Portfolio Website',
+    description:
+      'A portfolio website that showcases my projects and skills built with Three.js.',
+    tags: ['React', 'Three.js'],
+    imageUrl: Portfolio,
+    link: 'https://dahlia-website-threejs.vercel.app/',
   },
   {
     title: 'Meeting Scheduler',
