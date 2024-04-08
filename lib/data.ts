@@ -120,7 +120,7 @@ export const projectsData = [
       'A meeting scheduling platform that allows everyone to add their availability on a grid, enabling users to identify the slot that best overlaps.',
     tags: ['React', 'Node.js', 'Express', 'JavaScript', 'SQL'],
     imageUrl: RendezView,
-    link: 'https://rendez-view.vercel.app/',
+    link: 'https://rendezview.vercel.app/',
   },
 
   {
