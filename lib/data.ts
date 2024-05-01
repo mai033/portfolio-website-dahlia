@@ -8,6 +8,7 @@ import RendezView from '@/public/RendezView.png';
 import Cerebella from '@/public/Cerebella.png';
 import Portfolio from '@/public/Portfolio.png';
 import Dashboard from '@/public/Dashboard.png';
+import Zoom from '@/public/Zoom.png';
 
 export const links = [
   {
@@ -113,6 +114,13 @@ export const projectsData = [
     tags: ['React', 'Redux Toolkit Query', 'Node.js', 'MongoDB'],
     imageUrl: Dashboard,
     link: 'https://admin-frontend-ngde.onrender.com/',
+  },
+  {
+    title: 'Zoom Clone',
+    description: 'A video conferencing tool',
+    tags: ['Next.js', 'Stream', 'TypeScript', 'Tailwind CSS'],
+    imageUrl: Zoom,
+    link: 'https://zoom-clone-033.vercel.app/sign-in?redirect_url=https%3A%2F%2Fzoom-clone-033.vercel.app%2F',
   },
   {
     title: 'Meeting Scheduler',
