@@ -9,6 +9,8 @@ import Cerebella from '@/public/Cerebella.png';
 import Portfolio from '@/public/Portfolio.png';
 import Dashboard from '@/public/Dashboard.png';
 import Zoom from '@/public/Zoom.png';
+import Banking from '@/public/Banking.png';
+import Apple from '@/public/Apple.png';
 
 export const links = [
   {
@@ -39,7 +41,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'AI Trainer',
+    title: 'AI Training Team Lead',
     location: 'Los Angeles',
     description:
       // 'Experienced engineer specializing in React, JavaScript, TypeScript, Node.js, Express.js, and MongoDB, dedicated to delivering innovative and scalable solutions.',
@@ -99,6 +101,22 @@ export const projectsData = [
   //   imageUrl: KubeVX,
   //   link: 'https://www.kubevx.com',
   // },
+  {
+    title: 'Apple Website',
+    description: 'iPhone 15 Pro website clone with Three.js, and GSAP',
+    tags: ['React', 'Three.js', 'GSAP', 'Tailwind CSS'],
+    imageUrl: Apple,
+    link: 'https://apple-website-hazel.vercel.app/',
+  },
+  {
+    title: 'Banking App',
+    description:
+      'Financial SaaS platform with real-time transactions and transfers.',
+    tags: ['Next.js', 'Plaid', 'Appwrite', 'ShadCN', 'Chart.js'],
+    imageUrl: Banking,
+    link: 'https://banking-bice.vercel.app/sign-in',
+  },
+
   {
     title: 'Portfolio Website',
     description:
@@ -180,4 +198,6 @@ export const skillsData = [
   'Chart.js',
   'Material UI',
   'Three.js',
+  'GSAP',
+  'ShadCN',
 ] as const;
