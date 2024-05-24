@@ -11,6 +11,7 @@ import Dashboard from '@/public/Dashboard.png';
 import Zoom from '@/public/Zoom.png';
 import Banking from '@/public/Banking.png';
 import Apple from '@/public/Apple.png';
+import Brainwave from '@/public/Brainwave.png';
 
 export const links = [
   {
@@ -101,6 +102,13 @@ export const projectsData = [
   //   imageUrl: KubeVX,
   //   link: 'https://www.kubevx.com',
   // },
+  {
+    title: 'Brainwave',
+    description: 'Sleek React.js website with smooth Tailwind CSS animations.',
+    tags: ['React', 'Tailwind CSS'],
+    imageUrl: Brainwave,
+    link: 'https://brainwave-brown-eight.vercel.app/',
+  },
   {
     title: 'Apple Website',
     description: 'iPhone 15 Pro website clone with Three.js, and GSAP',
