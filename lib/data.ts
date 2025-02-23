@@ -42,11 +42,11 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'AI Training Team Lead',
+    title: 'Team Lead',
     location: 'Los Angeles',
     description:
       // 'Experienced engineer specializing in React, JavaScript, TypeScript, Node.js, Express.js, and MongoDB, dedicated to delivering innovative and scalable solutions.',
-      'LLM training on software engineering.',
+      `Fine-tuning the world's largest LLMs .`,
     icon: React.createElement(FaReact),
     date: '2024 - present',
   },
